@@ -1,0 +1,90 @@
+immediate to-do's:
+
+
+complete send_server_ships
+
+take in server_address somewhere
+
+
+took out port initiliazztion
+
+
+
+
+took out .h, commented out last part
+
+
+socket selectors
+threading
+    -networking
+    -drawing map
+
+
+
+change ship's/gun's center
+seperate thread for drawing the (animated) map
+
+
+
+
+future add list:
+set boundaries to view port and to map?
+reloading speed
+acceleration
+weapon selector
+collision > when colliding, speed is 0
+ramming
+map area for reload
+minimap
+zoom in/out
+more projectiles (ended up not using polymorphism with projectile class)
+
+*zoom out players view again when done debugging
+
+
+
+NETWORKING:
+
+
+all game instances are strictly clients
+seperate program for server
+
+
+connect to server IP...
+
+send packets of: all objects on map (position, etc);
+
+
+
+network sending position:
+
+sf::Packet packet;  //makes packet
+
+if(prevPosition != rect.getPosition())  //if positions are not the same, send a packet
+{
+    packet << rect1.getPosition().x << rect1.getPosition().y;
+    socket.send(packet);
+}
+
+socket.receive(packet); //receives packet
+if(packet >> p2Position.x >> p2Position.y)  //reads packet and makes it player2 position
+{
+    rect2.setPosition(p2Position);
+}
+
+window.draw(rect1);
+window.draw(rect2);
+
+
+
+
+EXPORTING TO WINDOWS:
+
+ensure sfml 2.2 is being used
+set up compiler using mingw64, and one for mingw32
+compile for 64 bit system, using mingw64
+set up to compile for windows platform first, make a template
+doing 64 bit game
+then link to the same sfml libraries, use a static linking
+link the -static-libstdc++ using mingw32 compiler
+test on a windows computer (should be just one executable)

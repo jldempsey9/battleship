@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1419483698 source:/home/consequence/code/Battleship2.0/bullet.cpp
+	"bullet.h"
+
+1419483698 /home/consequence/code/Battleship2.0/bullet.h
+	"projectile.h"
+
+1419482909 /home/consequence/code/Battleship2.0/projectile.h
+	<cmath>
+	<SFML/Graphics.hpp>
+	<vector>
+
+1419401122 source:/home/consequence/code/Battleship2.0/button.cpp
+	"button.h"
+
+1419401172 /home/consequence/code/Battleship2.0/button.h
+	<SFML/Graphics.hpp>
+	<SFML/Network.hpp>
+	<SFML/Window.hpp>
+	<string>
+

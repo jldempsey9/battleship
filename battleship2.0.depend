@@ -1,0 +1,78 @@
+# depslib dependency file v1.0
+1419401122 source:/home/consequence/code/Battleship2.0/button.cpp
+	"button.h"
+
+1419401172 /home/consequence/code/Battleship2.0/button.h
+	<SFML/Graphics.hpp>
+	<SFML/Network.hpp>
+	<SFML/Window.hpp>
+	<string>
+
+1420591723 source:/home/consequence/code/Battleship2.0/bullet.cpp
+	"bullet.h"
+
+1420591625 /home/consequence/code/Battleship2.0/bullet.h
+	"projectile.h"
+
+1420591871 /home/consequence/code/Battleship2.0/projectile.h
+	<cmath>
+	<SFML/Graphics.hpp>
+	<vector>
+
+1420603496 source:/home/consequence/code/Battleship2.0/game.cpp
+	"game.h"
+
+1420602324 /home/consequence/code/Battleship2.0/game.h
+	<SFML/Graphics.hpp>
+	<SFML/System.hpp>
+	<SFML/Network.hpp>
+	<iostream>
+	<vector>
+	<cmath>
+	"ship.h"
+	"menu.h"
+
+1420420808 /home/consequence/code/Battleship2.0/ship.h
+	<SFML/Graphics.hpp>
+	<SFML/Network.hpp>
+	<SFML/Window.hpp>
+	<iostream>
+	<cmath>
+	"gun.h"
+
+1420591625 /home/consequence/code/Battleship2.0/gun.h
+	<vector>
+	"bullet.h"
+	"projectile.h"
+	<iostream>
+
+1420423958 /home/consequence/code/Battleship2.0/menu.h
+	<SFML/Graphics.hpp>
+
+1420603118 source:/home/consequence/code/Battleship2.0/gun.cpp
+	"gun.h"
+
+1420421407 source:/home/consequence/code/Battleship2.0/menu.cpp
+	"menu.h"
+
+1420604037 source:/home/consequence/code/Battleship2.0/projectile.cpp
+	"projectile.h"
+
+1419026414 source:/home/consequence/code/Battleship2.0/shield.cpp
+	"shield.h"
+
+1419401186 /home/consequence/code/Battleship2.0/shield.h
+	<SFML/Graphics.hpp>
+	<SFML/Network.hpp>
+	<SFML/Window.hpp>
+
+1420571261 source:/home/consequence/code/Battleship2.0/ship.cpp
+	"ship.h"
+
+1420435459 source:/home/consequence/code/Battleship2.0/main.cpp
+	<SFML/Graphics.hpp>
+	"game.h"
+
+1420594570 /home/consequence/code/Battleship2.0/packet_overloads.h
+	<SFML/Network.hpp>
+
